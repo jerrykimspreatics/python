@@ -6,7 +6,7 @@ img_gray(회색그림)에서 얼굴을 검출한다. 검출된 얼굴은 사각�
 detectMultiScale 함수는 입력된 그림을 내부적으로 축소해가며 검출 대상을 검출하는 함수이다.
 '''
 
-img = cv2.imread('source/children.jpg')
+img = cv2.imread('source/child.jpg')
 # 이미지를 흑백으로 변환
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGRA2GRAY)
 
